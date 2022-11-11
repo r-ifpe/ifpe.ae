@@ -12,6 +12,8 @@ Depends:
     R (>= 4.1)
 Imports: 
     dplyr (>= 1.0),
+    stringi,
+    stringr,
     utils
 RoxygenNote: 7.1.2
 Suggests: 
