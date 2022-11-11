@@ -1,0 +1,20 @@
+Package: ifpe.ae
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL (>= 2)
+LazyData: true
+Depends:
+    R (>= 4.1)
+Imports: 
+    dplyr (>= 1.0),
+    utils
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
