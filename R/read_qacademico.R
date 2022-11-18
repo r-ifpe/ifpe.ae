@@ -11,7 +11,7 @@ read_qacademico_file <- function(x) {
       !!!syms(read_qacademico_columns())
     ) %>%
     dplyr::rename(
-      MATRIUCLA = !!sym("Matrícula"),
+      MATRICULA = !!sym("Matrícula"),
       NOME = !!sym("Nome"),
       SEXO = !!sym("Sexo"),
       SITUACAO_MATRICULA = !!sym("Situação.Matrícula"),
